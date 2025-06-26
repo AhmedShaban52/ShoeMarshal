@@ -33,6 +33,6 @@ export async function GET() {
   return NextResponse.redirect(
     process.env.NODE_ENV === "development"
       ? "http://localhost:3000/"
-      : "https://shoe-marshal-one.vercel.app/" 
+      : "https://shoe-marshal-orcin.vercel.app/" 
   );
 }

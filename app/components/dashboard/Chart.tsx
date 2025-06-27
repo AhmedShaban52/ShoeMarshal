@@ -37,6 +37,8 @@ const aggregateData = (data: any) => {
 
 export function Chart({ data }: iAppProps) {
   const proccesedData = aggregateData(data);
+  console.log(proccesedData);
+  
   return (
     <ResponsiveContainer width="100%" height={400}>
       <LineChart data={proccesedData}>
